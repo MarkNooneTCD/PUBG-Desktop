@@ -1,0 +1,22 @@
+{
+  "name": "pubg-desktop",
+  "version": "0.0.1",
+  "description": "This is the server for the pubg desktop application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkNooneTCD/PUBG-Desktop.git"
+  },
+  "author": "Mark Noone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkNooneTCD/PUBG-Desktop/issues"
+  },
+  "homepage": "https://github.com/MarkNooneTCD/PUBG-Desktop#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

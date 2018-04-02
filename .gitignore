@@ -1,0 +1,5 @@
+#Ignore any private config files
+/Config
+
+#Ignore any Node Modules
+/node_modules
