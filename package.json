@@ -2,8 +2,9 @@
   "name": "pubg-desktop",
   "version": "0.0.1",
   "description": "This is the server for the pubg desktop application",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
+    "start": "electron app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/MarkNooneTCD/PUBG-Desktop#readme",
   "dependencies": {
+    "electron": "^1.8.4",
     "express": "^4.16.3"
   }
 }
